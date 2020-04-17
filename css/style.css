@@ -191,16 +191,14 @@ section h2 {
 }
 
 .clients img {
-	width: 90px;
+	width: 10%;
 	filter: grayscale(100%);
-	margin: 20px;
+	margin: auto 20px;
 	opacity: 0.7;
 }
 
 #google {
-	height: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	width: 10%;
 }
 
 footer a {
@@ -266,6 +264,10 @@ footer span {
 	.cookies p {
 		margin: 0;
 		line-height: 2;
+	}
+
+	.clients img {
+		/* width: 40%; */
 	}
 }
 
