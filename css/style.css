@@ -28,15 +28,14 @@ body {
 }
 
 .cookies {
+	display: block;
 	background-color: #154360;
 	text-align: center;
-	/*height: 50px;*/
-	/*vertical-align: middle;*/
 	padding-top: 20px;
 	padding-bottom: 15px;
 }
 
-.cookies a {
+.cookies button {
 	border-radius: 20px;
 	color: #154360;
 	background-color: #fff;
@@ -45,9 +44,10 @@ body {
 	padding-bottom: 5px;
 	padding-right: 10px;
 	padding-left: 10px;
-	margin: 20px;
+	margin: 10px;
 	text-decoration: none;
 	box-sizing: border-box;
+	outline: none;
 }
 
 .cookies p {
@@ -168,7 +168,7 @@ section h2 {
 
 .cirlce {
 	text-align: center;
-	margin-top: 20px;
+	padding-top: 20px;
 }
 
 .cirlce img {
@@ -252,17 +252,9 @@ footer span {
 		right: 15%;
 	}
 
-	.cookies a {
-		margin-top: 5%;
-	}	
-
 	.cookies p {
 		margin: 0;
 		line-height: 2;
-	}
-
-	.clients img {
-		/* width: 40%; */
 	}
 }
 
